@@ -2,7 +2,7 @@
   "name": "e-gona",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "nav.js",
   "scripts": {
     "build": "tailwindcss -i ./style/input.css -o ./dict/styles.css",
     "watch": "tailwindcss -i ./style/input.css -o ./dict/styles.css --watch"

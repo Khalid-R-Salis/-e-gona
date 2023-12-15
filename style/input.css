@@ -20,7 +20,7 @@
   }
 
   .sign-card {
-    @apply flex flex-col bg-slate-400 mx-auto md:mx-0 md:ml-auto md:w-1200 md:h-500 md:mr-auto gap-16 w-96  md:flex-row;
+    @apply flex flex-colmx-auto md:mx-0 md:ml-auto md:w-1200 md:h-500 md:mr-auto gap-16 w-96  md:flex-row;
   }
 
   .sign-container {
@@ -71,7 +71,7 @@
   }
 
   .slideshow-container {
-    @apply w-498 h-344 ml-auto relative;
+    @apply w-498 h-344 relative;
   }
 
   .text {

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./*.{html,js}"],
   theme: {
     fontFamily: {
       body: ["Poppins", "sans-serif"],
@@ -12,6 +12,7 @@ module.exports = {
         pakistan_green: "#113A10",
         footer_color: "#113A10",
         footer_color2: "#1E1E1E",
+        input_color: "#F5F5F5",
       },
 
       width: {
@@ -39,6 +40,7 @@ module.exports = {
         350: "350px",
         250: "250px",
         200: "200px",
+        400: "400px",
       },
 
       margin: {
@@ -46,6 +48,9 @@ module.exports = {
         bottom: "150px",
       },
 
+      borderColor: {
+        black: "#000",
+      },
       padding: {},
     }, // Existing Tailwind utilities
   },
