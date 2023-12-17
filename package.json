@@ -1,7 +1,7 @@
 {
   "name": "e-gona",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000-\u0000e\u0000-\u0000g\u0000o\u0000n\u0000a\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./style/input.css -o ./dict/styles.css",
@@ -12,5 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khalid-R-Salis/-e-gona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khalid-R-Salis/-e-gona/issues"
+  },
+  "homepage": "https://github.com/Khalid-R-Salis/-e-gona#readme"
 }
