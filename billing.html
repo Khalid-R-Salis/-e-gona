@@ -20,6 +20,7 @@
           <p class="mb-1">First Name*</p>
           <input
             type="text"
+            name="first_name"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
             required
           />
@@ -29,6 +30,8 @@
           <p class="mb-1">Company Name</p>
           <input
             type="text"
+            name="company_name"
+            required
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
           />
         </div>
@@ -37,6 +40,7 @@
           <p class="mb-1">Street Address*</p>
           <input
             type="text"
+            name="street_address"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
             required
           />
@@ -46,6 +50,7 @@
           <p class="mb-1">Apartment, floor, etc. (optional)</p>
           <input
             type="text"
+            name="apartment"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
           />
         </div>
@@ -54,6 +59,7 @@
           <p class="mb-1">Town/City*</p>
           <input
             type="text"
+            name="city"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
             required
           />
@@ -63,6 +69,7 @@
           <p class="mb-1">Phone Number*</p>
           <input
             type="text"
+            name="phone"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
             required
           />
@@ -72,13 +79,14 @@
           <p class="mb-1">Email Address*</p>
           <input
             type="email"
+            name="email"
             class="bg-input_color p-2 rounded-sm focus:outline-none w-[20rem]"
             required
           />
         </div>
 
         <div class="flex justify-center items-center align-middle gap-1 mt-3">
-          <input type="checkbox" />
+          <input type="checkbox" name="check" />
           <p>Save this information for faster check-out next time</p>
         </div>
       </form>
@@ -134,7 +142,13 @@
         </div>
 
         <div class="flex justify-center items-center gap-8">
-          <h2 class="pl-4 pr-32 py-1 border-2 rounded-md">Coupon Code</h2>
+          <input
+            type="text"
+            name="Coupon"
+            class="pl-4 pr-32 py-1 border-2 rounded-md outline-none"
+            value="Coupon Code: "
+            readonly
+          />
           <button
             class="px-5 py-[5px] w-36 bg-green-600 align-middle rounded-md text-white"
           >

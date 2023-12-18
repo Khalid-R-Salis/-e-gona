@@ -20,14 +20,16 @@
         <div class="flex contents-center items-center">
           <form action="get">
             <h1 class="font-inter text-[25px] font-body pb-4">
-              Log in to Exclusive
+              Log in to E-GONA
             </h1>
             <p class="text-[16px] font-body pb-2">Enter your details below</p>
 
             <div class="mb-5">
               <input
                 type="email"
-                placeholder="Email or Phone Number"
+                placeholder="Email"
+                name="email"
+                required
                 class="p-2 w-64 border-b-2 border-gray-700 outline-none"
               />
             </div>
@@ -35,7 +37,9 @@
             <div class="mb-5">
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="Password" 
+                name="password"
+                required
                 class="p-2 w-64 border-b-2 border-gray-700 outline-none"
               />
             </div>
